@@ -1,0 +1,20 @@
+name: RtpQueuePlus
+main: com.example.rtpqueue.RtpQueuePlusPlugin
+version: 1.0
+api-version: 1.20
+commands:
+  1v1:
+    description: Open the 1v1 duel queue GUI, leave queue, or reload config
+    usage: /1v1 [leave|reload]
+    permission: rtpqueueplus.use
+  rtpqueue:
+    description: Open the RTP queue GUI, leave queue, or reload config
+    usage: /rtpqueue [leave|reload]
+    permission: rtpqueueplus.use
+permissions:
+  rtpqueueplus.use:
+    description: Allows use of the 1v1 queue command
+    default: true
+  rtpqueueplus.admin:
+    description: Allows reloading the plugin configuration
+    default: op 

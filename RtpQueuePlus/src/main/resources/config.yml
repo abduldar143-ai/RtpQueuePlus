@@ -1,0 +1,31 @@
+gui:
+  title: "RANDOM TELEPORT"
+  size: 9
+  rows: 1
+  items:
+    - material: GRASS_BLOCK
+      name: "&aGrass Arena"
+      queue: "grass"
+      world: "world"
+      slot: 2
+    - material: SAND
+      name: "&eDesert Arena"
+      queue: "desert"
+      world: "world_nether"
+      slot: 3
+    - material: RED_MUSHROOM_BLOCK
+      name: "&cMushroom Arena"
+      queue: "mushroom"
+      world: "world_the_end"
+      slot: 5
+    - material: ORANGE_TERRACOTTA
+      name: "&6Mesa Arena"
+      queue: "mesa"
+      world: "world"
+      slot: 6
+teleport:
+  min_distance: 1000
+  max_distance: 5000
+  min_y: 60
+  max_y: 120
+  safe_teleport: true 
